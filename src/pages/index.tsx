@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import { PageContainer } from '../../styles';
-import HomePageExamples from 'src/sections/HomePage/HomePageExample';
 
 const Home = () => (
   <>
@@ -10,8 +8,10 @@ const Home = () => (
       <link href="/favicon.ico" rel="icon" />
     </Head>
 
-    <main className={PageContainer}>
-      <HomePageExamples />
+    <main className="text-3xl font-bold underline bg-red-300">
+      <div>
+        Hello Tailwind!
+      </div>
     </main>
   </>
 );
