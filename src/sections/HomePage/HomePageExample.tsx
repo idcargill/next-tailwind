@@ -6,7 +6,8 @@ import JestExamples from '../JestExample/JestExamples';
 
 
 const Spinner = () => (
-  <div>
+  <div className="hover:text-3xl bg-gradient-to-r w-36 p-5 m-5 text-center 
+  from-indigo-500 to-orange-500 rounded-full hover:bg-red-500">
     <p>Hover here</p>
   </div>
 );

@@ -1,29 +1,20 @@
 import React from 'react';
 
-import {
-  ProjectContainer,
-  listContainer,
-  listStyle,
-  tabulaRasa,
-} from '../../../styles';
-
 const ProjectStarter = () => (
   <>
-    <div className={ProjectContainer}>
+    <div>
       <h1>Project Starter</h1>
-      <div className={listContainer}>
-        <ul className={listStyle}>
+      <div>
+        <ul className="m-5 p-3 bg-emerald-500">
           <li>nextjs 13</li>
           <li>typescript</li>
           <li>vanilla extract CSS</li>
           <li>jest</li>
         </ul>
       </div>
-      <div className={tabulaRasa}>
+      <div className="text-center bg-gray-300">
         <p>To clear example files run:</p>
-        <p
-          style={{ backgroundColor: '#0b0909', color: 'white', padding: '5px' }}
-        >
+        <p className="">
           yarn tabulaRasa
         </p>
       </div>

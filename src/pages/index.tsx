@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import HomePageExamples from 'src/sections/HomePage/HomePageExample';
 const Home = () => (
   <>
     <Head>
@@ -8,10 +8,11 @@ const Home = () => (
       <link href="/heart.svg" rel="icon" />
     </Head>
 
-    <main className="text-3xl font-bold underline bg-red-300">
-      <div>
+    <main className="main-content">
+      <div className="text-3xl font-bold underline bg-red-300">
         Hello Tailwind!
       </div>
+      <HomePageExamples />
     </main>
   </>
 );
