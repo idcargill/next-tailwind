@@ -9,6 +9,7 @@
     "lint": "next lint",
     "test": "./node_modules/jest/bin/jest.js",
     "test-file": "yarn test --watch",
+    "test-coverage": "yarn test --coverage",
     "pretty": "prettier --check --ignore-path .gitignore .",
     "tabulaRasa": "./tabulaRasa.sh"
   },
