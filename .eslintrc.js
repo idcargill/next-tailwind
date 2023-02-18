@@ -9,7 +9,7 @@ module.exports = {
     "max-len": ["error", 120, { "ignoreUrls": true}],
     "semi": ["error", "always"],
     "comma-dangle": ["error", {
-      "arrays": "never",
+      "arrays": "always-multiline",
       "objects": "always-multiline",
       "imports": "always-multiline",
       "exports": "always-multiline",

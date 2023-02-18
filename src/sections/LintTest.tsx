@@ -13,6 +13,7 @@ Test formatting here for linter settings.
 // short array
 const arr = ['a', 'b', 'c'];
 
+
 // long array
 const longArr = [
   "kitten",
@@ -23,7 +24,7 @@ const longArr = [
   "magic", 
   "lion",
   "long word and stuff",
-  "lasagna"
+  "lasagna",
 ];
 
 // object one line
