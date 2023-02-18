@@ -26,7 +26,8 @@ module.exports = {
     'prefer-const': 'warn',
     'max-len': [ 'error', {
       code: 100, 
-      ignoreUrls: true, 
+      ignoreUrls: true,
+      ignoreComments: true,
       }, 
     ],
     'semi': [ 'error', 'always' ],
