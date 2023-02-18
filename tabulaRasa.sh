@@ -22,13 +22,7 @@ case $userInput in
     cat indexCopy.tsx | grep -v -i 'HomePageExamples' > src/pages/index.tsx
     rm indexCopy.tsx
     rm -r src/sections/*
-    rm -r styles/StyleSheets/*
-    rm styles/index.ts
-    
-    # reset style sheets
-    rm styles/index.css.ts
-    mv styles/example.css.ts styles/index.css.ts
-    
+        
     # set .env.local
     mv examples.env.local .env.local
     
