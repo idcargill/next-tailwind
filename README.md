@@ -1,6 +1,6 @@
 ## NEXT-tailwind Project Starter 
 
-A nextjs configured environement for starting new projects. 
+A nextjs configured environement for starting new projects.
 
 After forking and installing this repo you can test and edit linter settings before running a script to reset the project. 
 
@@ -8,9 +8,9 @@ After forking and installing this repo you can test and edit linter settings bef
 
 - [nextjs 13](https://nextjs.org/docs) w/ [rust compiler](https://nextjs.org/docs/advanced-features/compiler) (no babel)
 - [React18](https://reactjs.org/blog/2022/03/29/react-v18.html) with [Typescript](https://www.typescriptlang.org/docs/handbook/react.html)
-- Tailwind CSS (https://tailwindcss.com/)
+- [Tailwindcss](https://tailwindcss.com/docs/installation)
 - Testing with [jest](https://jestjs.io/) and [React-testing-library](https://testing-library.com/docs/react-testing-library/intro/)
-- Linting for React with typescript
+
 
 
 ### Start New Project
@@ -44,6 +44,9 @@ View examples on your local server
 Once you are happy with your eslint (or before) reset the project.
 This will remove the example files but keep configuration settings.
 
+To test tailwind css: localhost:3000/css
+> src/sections/CssPage/cssPageLayout.tsx
+
 To remove the custom examples and get a fresh project, run:
 
 ```bash
@@ -66,7 +69,3 @@ To test while working on a single file like you should (TDD):
 
 Generate test coverage:
 > yarn test-coverage
-
-
-
-
