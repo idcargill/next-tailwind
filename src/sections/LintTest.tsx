@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react';
 
-const na = 'fish';
+const na = 'Fish';
 const stuff = ['a', 'bb'];
+const oneLineArr = [
+  1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1,
+  2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5,
+];
 
-/*
+/*   
 LINT TESTING
 Test formatting here for linter settings.
 
@@ -13,21 +17,22 @@ Test formatting here for linter settings.
 .editorConfig
 */
 
-// Should Error Use Hook 
+// Should Error Use Hook
 useEffect(() => {
   console.log('effect');
 }, []);
 
-
 interface SomeProps {
-  title: string
+  title: string;
 }
 
 const SomeComponent: React.FC<SomeProps> = ({ title }) => {
   const [data, setData] = useState(0);
 
   return (
-    <h3>{title} {data}</h3>
+    <h3>
+      {title} {data}
+    </h3>
   );
 };
 
@@ -37,13 +42,13 @@ enum Words {
 }
 
 interface HumanInterface {
-  name: string
-  id: number
+  name: string;
+  id: number;
 }
 
 type PersonType<T> = {
-  job: string
-} & T
+  job: string;
+} & T;
 
 const person: PersonType<HumanInterface> = {
   job: 'Pizza guy',
@@ -68,10 +73,16 @@ const longArr = [
   'lasagna',
 ];
 
-
 // object one line
-const obj = { name: 'hi', job: 'pizza guy', fish: 'shark', test: 'test', thing: 'jeep', news: 'birds returned', moreStuff: 'this is a long thing' };
-
+const obj = {
+  name: 'hi',
+  job: 'pizza guy',
+  fish: 'shark',
+  test: 'test',
+  thing: 'jeep',
+  news: 'birds returned',
+  moreStuff: 'this is a long thing',
+};
 
 // Multi line
 const largObj = {
@@ -83,24 +94,18 @@ const largObj = {
 };
 
 // arrow function ()
-export const ComponentExample1 = () => (
-  <h1>Some Text</h1>
-);
-
+export const ComponentExample1 = () => <h1>Some Text</h1>;
 
 // arrow function with return
 export const ComponentExample2 = () => {
   const text = 'Component 2 arrow func';
-  return (
-    <p>{text}</p>
-  );
+  return <p>{text}</p>;
 };
-
 
 // typescript react class
 type exampleProps = {
-  name: string
-}
+  name: string;
+};
 
 export class ComponentExample3 extends React.Component<exampleProps> {
   name: string;
@@ -112,8 +117,6 @@ export class ComponentExample3 extends React.Component<exampleProps> {
 
   render() {
     const name = this.props.name;
-    return (
-      <p id="someId">{name}</p>
-    );
+    return <p id="someId">{name}</p>;
   }
 }
