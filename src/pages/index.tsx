@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import HomePageExamples from 'src/sections/HomePage/HomePageExample';
 const Home = () => (
   <>
     <Head>
@@ -12,7 +11,6 @@ const Home = () => (
       <div className="text-3xl font-bold underline bg-red-300">
         Hello Tailwind!
       </div>
-      <HomePageExamples />
     </main>
   </>
 );
