@@ -1,15 +1,16 @@
 ## NEXT-tailwind Project Starter 
 
-A nextjs configured environement for starting new projects.
+A nextjs configured environment for starting new projects.
 
 After forking and installing this repo you can test and edit linter settings before running a script to reset the project. 
 
 #### Project Configuration:
 
-- [nextjs 13](https://nextjs.org/docs) w/ [rust compiler](https://nextjs.org/docs/advanced-features/compiler) (no babel)
+- [nextjs 14](https://nextjs.org/docs) w/ [rust compiler](https://nextjs.org/docs/advanced-features/compiler) (no babel)
 - [React18](https://reactjs.org/blog/2022/03/29/react-v18.html) with [Typescript](https://www.typescriptlang.org/docs/handbook/react.html)
 - [Tailwindcss](https://tailwindcss.com/docs/installation)
-- Testing with [jest](https://jestjs.io/) and [React-testing-library](https://testing-library.com/docs/react-testing-library/intro/)
+- [daisyUi](https://daisyui.com/)
+- Testing with [jest](https://jestjs.io/)
 
 
 
@@ -69,3 +70,9 @@ To test while working on a single file like you should (TDD):
 
 Generate test coverage:
 > yarn test-coverage
+
+
+#### Changelog
+
+- 12/1/23: Update to nextjs 14 using appRouter. Add daisyUi
+- Init: Nextjs 13 with tailwind
