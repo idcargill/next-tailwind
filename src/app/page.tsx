@@ -10,8 +10,10 @@ const Home = () => (
 
     <main className="main-content">
       <div className="text-3xl font-bold underline bg-red-300">
-        Hello Tailwind!
+        Styled with Tailwind & daisyUi!
       </div>
+
+      <button className="btn btn-secondary">DaisyUi button</button>
       <HomePageExamples />
     </main>
   </>
