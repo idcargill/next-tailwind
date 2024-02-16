@@ -38,3 +38,7 @@ next-env.d.ts
 # vsCode
 .vscode/settings.json
 
+
+## Panda
+styled-system
+styled-system-studio
